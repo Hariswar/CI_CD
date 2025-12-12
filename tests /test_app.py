@@ -22,3 +22,6 @@ def test_multiply():
 
 def test_divide():
     assert divide(30, 15) == 2
+
+def square():
+    assert square(21) == 441
