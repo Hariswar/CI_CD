@@ -7,6 +7,8 @@ sys.path.insert(0, str(root / "src"))
 from app import add 
 from app import subtract 
 from app import multiply
+from app import divide
+from app import square
 
 def test_add():
     assert add(5, 6) == 11
@@ -23,5 +25,5 @@ def test_multiply():
 def test_divide():
     assert divide(30, 15) == 2
 
-def square():
+def test_square():
     assert square(21) == 441
