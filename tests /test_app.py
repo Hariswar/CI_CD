@@ -19,3 +19,6 @@ def test_subtract():
 
 def test_multiply():
     assert multiply(20, 15) == 300
+
+def test_divide():
+    assert divide(30, 15) == 2
