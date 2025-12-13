@@ -14,6 +14,7 @@ from app import square_root
 from app import math_sin
 from app import math_cos
 from app import percentage
+from app import log_function 
 
 def test_add():
     assert add(5, 6) == 11
@@ -44,3 +45,6 @@ def test_cos():
 
 def test_pecentage():
     assert percentage(400, 1000) == 40
+
+def test_log():
+    assert log_function(1000) == 3

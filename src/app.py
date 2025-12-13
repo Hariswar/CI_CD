@@ -26,3 +26,7 @@ def math_cos(a):
 
 def percentage(a, b):
     return (a / b) * 100
+
+# I just did it based on log 10
+def log_function(a):
+    return math.log10(a)
