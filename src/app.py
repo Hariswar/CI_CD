@@ -23,3 +23,6 @@ def math_sin(a):
 
 def math_cos(a):
     return math.cos(a)
+
+def percentage(a, b):
+    return (a / b) * 100
