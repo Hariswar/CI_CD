@@ -10,6 +10,10 @@ from app import subtract
 from app import multiply
 from app import divide
 from app import square
+from app import square_root
+from app import math_sin
+from app import math_cos
+
 
 def test_add():
     assert add(5, 6) == 11
@@ -30,4 +34,10 @@ def test_square():
     assert square(21) == 441
 
 def test_squareRoot():
-    assert math.sqrt(49) == 7
+    assert square_root(49) == 7
+
+def test_sin():
+    assert math_sin(0) == 0
+
+def test_cos():
+    assert math_cos(0) == 1

@@ -17,3 +17,9 @@ def square (a):
 
 def square_root(a):
     return math.sqrt(a)
+
+def math_sin(a):
+    return math.sin(a)
+
+def math_cos(a):
+    return math.cos(a)
