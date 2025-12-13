@@ -1,4 +1,5 @@
 import sys
+import math
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
@@ -27,3 +28,6 @@ def test_divide():
 
 def test_square():
     assert square(21) == 441
+
+def test_squareRoot():
+    assert math.sqrt(49) == 7

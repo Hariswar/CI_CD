@@ -1,3 +1,5 @@
+import math 
+
 def add (a,b):
     return a + b
 
@@ -12,3 +14,6 @@ def divide (a, b):
 
 def square (a):
     return a * a
+
+def square_root(a):
+    return math.sqrt(a)
